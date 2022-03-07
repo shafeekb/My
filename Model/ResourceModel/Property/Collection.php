@@ -1,16 +1,16 @@
 <?php
 
-namespace My\PropertySystem\Model\ResourceModel\Property;
+namespace Shafeekb\PropertySystem\Model\ResourceModel\Property;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use My\PropertySystem\Api\Data\PropertyInterface;
-use My\PropertySystem\Model\Property;
-use My\PropertySystem\Model\ResourceModel\Property as PropertyResource;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Model\Property;
+use Shafeekb\PropertySystem\Model\ResourceModel\Property as PropertyResource;
 
 /**
  * Class Collection
  *
- * @package My\PropertySystem\Model\ResourceModel\Property
+ * @package Shafeekb\PropertySystem\Model\ResourceModel\Property
  */
 class Collection extends AbstractCollection
 {

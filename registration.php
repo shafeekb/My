@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'My_PropertySystem', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Shafeekb_PropertySystem', __DIR__);

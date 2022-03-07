@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="property" frontName="property">
-            <module name="My_PropertySystem"/>
+            <module name="Shafeekb_PropertySystem"/>
         </route>
     </router>
 </config>

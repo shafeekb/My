@@ -1,11 +1,11 @@
 <?php
 
-namespace My\PropertySystem\Api\Data;
+namespace Shafeekb\PropertySystem\Api\Data;
 
 /**
  * Interface PropertyInterface
  *
- * @package My\PropertySystem\Api\Data
+ * @package Shafeekb\PropertySystem\Api\Data
  */
 interface PropertyInterface
 {

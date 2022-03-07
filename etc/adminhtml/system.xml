@@ -9,7 +9,7 @@
                  showInStore="1">
             <label>Property System</label>
             <tab>property_system</tab>
-            <resource>My_PropertySystem::config</resource>
+            <resource>Shafeekb_PropertySystem::config</resource>
             <group id="setting" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
                    showInStore="0">
                 <label>Property System Settings</label>

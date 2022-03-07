@@ -1,17 +1,17 @@
 <?php
 
-namespace My\PropertySystem\Model\Property;
+namespace Shafeekb\PropertySystem\Model\Property;
 
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Ui\DataProvider\Modifier\PoolInterface;
 use Magento\Ui\DataProvider\ModifierPoolDataProvider;
-use My\PropertySystem\Api\Data\PropertyInterface;
-use My\PropertySystem\Model\ResourceModel\Property\CollectionFactory;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Model\ResourceModel\Property\CollectionFactory;
 
 /**
  * Class DataProvider
  *
- * @package My\PropertySystem\Model\Property
+ * @package Shafeekb\PropertySystem\Model\Property
  */
 class DataProvider extends ModifierPoolDataProvider
 {

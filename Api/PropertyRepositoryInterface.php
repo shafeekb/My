@@ -1,9 +1,9 @@
 <?php
 
-namespace My\PropertySystem\Api;
+namespace Shafeekb\PropertySystem\Api;
 
 use Exception;
-use My\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
 
 interface PropertyRepositoryInterface
 {

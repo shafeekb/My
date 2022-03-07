@@ -1,6 +1,6 @@
 <?php
 
-namespace My\PropertySystem\Controller\Adminhtml\Property;
+namespace Shafeekb\PropertySystem\Controller\Adminhtml\Property;
 
 use Exception;
 use Magento\Backend\App\Action;
@@ -10,15 +10,15 @@ use Magento\Framework\Controller\Result\Redirect;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Serialize\SerializerInterface;
-use My\PropertySystem\Api\PropertyRepositoryInterface;
-use My\PropertySystem\Model\Api;
-use My\PropertySystem\Model\PropertyFactory;
+use Shafeekb\PropertySystem\Api\PropertyRepositoryInterface;
+use Shafeekb\PropertySystem\Model\Api;
+use Shafeekb\PropertySystem\Model\PropertyFactory;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class Sync
  *
- * @package My\PropertySystem\Controller\Adminhtml\Property
+ * @package Shafeekb\PropertySystem\Controller\Adminhtml\Property
  */
 class Sync extends Action
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace My\PropertySystem\Ui\Component\Listing\Grid\Column;
+namespace Shafeekb\PropertySystem\Ui\Component\Listing\Grid\Column;
 
 use Magento\Framework\View\Element\UiComponent\ContextInterface;
 use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Ui\Component\Listing\Columns\Column;
 use Magento\Framework\UrlInterface;
-use My\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
 
 /**
  * Class Action
  *
- * @package My\PropertySystem\Ui\Component\Listing\Grid\Column
+ * @package Shafeekb\PropertySystem\Ui\Component\Listing\Grid\Column
  */
 class Action extends Column
 {

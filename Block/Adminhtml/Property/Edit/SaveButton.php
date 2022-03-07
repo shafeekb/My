@@ -8,7 +8,7 @@
  * @category    exampleproject
  */
 
-namespace My\PropertySystem\Block\Adminhtml\Property\Edit;
+namespace Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 

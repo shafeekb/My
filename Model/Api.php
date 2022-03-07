@@ -1,8 +1,8 @@
 <?php
 
-namespace My\PropertySystem\Model;
+namespace Shafeekb\PropertySystem\Model;
 
-use My\PropertySystem\Helper\Data;
+use Shafeekb\PropertySystem\Helper\Data;
 use Psr\Log\LoggerInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientFactory;
@@ -14,7 +14,7 @@ use Magento\Framework\Webapi\Rest\Request;
 /**
  * Class Api
  *
- * @package My\PropertySystem\Model
+ * @package Shafeekb\PropertySystem\Model
  */
 class Api
 {

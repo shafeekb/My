@@ -8,10 +8,10 @@
  * @category    exampleproject
  */
 
-namespace My\PropertySystem\Model\ResourceModel;
+namespace Shafeekb\PropertySystem\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
-use My\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
 
 class Property extends AbstractDb
 {

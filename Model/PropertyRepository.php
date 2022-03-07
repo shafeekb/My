@@ -1,18 +1,18 @@
 <?php
 
-namespace My\PropertySystem\Model;
+namespace Shafeekb\PropertySystem\Model;
 
 use Exception;
 use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\NoSuchEntityException;
-use My\PropertySystem\Api\Data\PropertyInterface;
-use My\PropertySystem\Api\PropertyRepositoryInterface;
-use My\PropertySystem\Model\ResourceModel\Property as PropertyResource;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\PropertyRepositoryInterface;
+use Shafeekb\PropertySystem\Model\ResourceModel\Property as PropertyResource;
 
 /**
  * Class PropertyRepository
  *
- * @package My\PropertySystem\Model
+ * @package Shafeekb\PropertySystem\Model
  */
 class PropertyRepository implements PropertyRepositoryInterface
 {

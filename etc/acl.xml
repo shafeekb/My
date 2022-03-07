@@ -7,7 +7,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="My_PropertySystem::config" title="Property System"
+                            <resource id="Shafeekb_PropertySystem::config" title="Property System"
                                       sortOrder="80"/>
                         </resource>
                     </resource>

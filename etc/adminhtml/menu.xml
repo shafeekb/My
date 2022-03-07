@@ -2,15 +2,15 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="My_PropertySystem::property_system" title="Property System" translate="title"
-             module="My_PropertySystem" sortOrder="20"
-             dependsOnModule="My_PropertySystem" resource="My_PropertySystem::config"/>
-        <add id="My_PropertySystem::property_system_list" title="Property System Grid" translate="title"
-             module="My_PropertySystem" sortOrder="20" parent="My_PropertySystem::property_system"
-             action="property/property/index" resource="My_PropertySystem::config"/>
-        <add id="My_PropertySystem::property_system_config" title="Settings" translate="title"
-             module="My_PropertySystem"
-             sortOrder="50" parent="My_PropertySystem::property_system"
-             action="adminhtml/system_config/edit/section/property_system" resource="My_PropertySystem::config"/>
+        <add id="Shafeekb_PropertySystem::property_system" title="Property System" translate="title"
+             module="Shafeekb_PropertySystem" sortOrder="20"
+             dependsOnModule="Shafeekb_PropertySystem" resource="Shafeekb_PropertySystem::config"/>
+        <add id="Shafeekb_PropertySystem::property_system_list" title="Property System Grid" translate="title"
+             module="Shafeekb_PropertySystem" sortOrder="20" parent="Shafeekb_PropertySystem::property_system"
+             action="property/property/index" resource="Shafeekb_PropertySystem::config"/>
+        <add id="Shafeekb_PropertySystem::property_system_config" title="Settings" translate="title"
+             module="Shafeekb_PropertySystem"
+             sortOrder="50" parent="Shafeekb_PropertySystem::property_system"
+             action="adminhtml/system_config/edit/section/property_system" resource="Shafeekb_PropertySystem::config"/>
     </menu>
 </config>

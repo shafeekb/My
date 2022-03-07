@@ -8,7 +8,7 @@
  * @category    exampleproject
  */
 
-namespace My\PropertySystem\Block\Adminhtml\Property\Edit;
+namespace Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit;
 
 use Magento\Backend\Block\Widget\Context;
 use Magento\Framework\UrlInterface;
@@ -17,7 +17,7 @@ use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 /**
  * Class BackButton
  *
- * @package My\PropertySystem\Block\Adminhtml\Property\Edit
+ * @package Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit
  */
 class BackButton implements ButtonProviderInterface
 {

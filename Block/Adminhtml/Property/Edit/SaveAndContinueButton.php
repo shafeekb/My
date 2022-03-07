@@ -1,13 +1,13 @@
 <?php
 
-namespace My\PropertySystem\Block\Adminhtml\Property\Edit;
+namespace Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 
 /**
  * Class SaveAndContinueButton
  *
- * @package My\PropertySystem\Block\Adminhtml\Property\Edit
+ * @package Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit
  */
 class SaveAndContinueButton implements ButtonProviderInterface
 {

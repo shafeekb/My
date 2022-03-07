@@ -1,14 +1,14 @@
 <?php
 
-namespace My\PropertySystem\Model;
+namespace Shafeekb\PropertySystem\Model;
 
 use Magento\Framework\Model\AbstractModel;
-use My\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
 
 /**
  * Class Property
  *
- * @package My\PropertySystem\Model
+ * @package Shafeekb\PropertySystem\Model
  */
 class Property extends AbstractModel implements PropertyInterface
 {

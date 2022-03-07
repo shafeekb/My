@@ -8,20 +8,20 @@
  * @category    exampleproject
  */
 
-namespace My\PropertySystem\Controller\Adminhtml\Property;
+namespace Shafeekb\PropertySystem\Controller\Adminhtml\Property;
 
 use Exception;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\ResponseInterface;
-use My\PropertySystem\Api\Data\PropertyInterface;
-use My\PropertySystem\Api\PropertyRepositoryInterface;
+use Shafeekb\PropertySystem\Api\Data\PropertyInterface;
+use Shafeekb\PropertySystem\Api\PropertyRepositoryInterface;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class Save
  *
- * @package My\PropertySystem\Controller\Adminhtml\Property
+ * @package Shafeekb\PropertySystem\Controller\Adminhtml\Property
  */
 class Save extends Action
 {

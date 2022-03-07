@@ -1,6 +1,6 @@
 <?php
 
-namespace My\PropertySystem\Model\ResourceModel\Property\Grid;
+namespace Shafeekb\PropertySystem\Model\ResourceModel\Property\Grid;
 
 use Magento\Framework\Api\Search\AggregationInterface;
 use Magento\Framework\Api\Search\SearchResultInterface;
@@ -11,13 +11,13 @@ use Magento\Framework\DB\Adapter\AdapterInterface;
 use Magento\Framework\Event\ManagerInterface;
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 use Magento\Framework\View\Element\UiComponent\DataProvider\Document;
-use My\PropertySystem\Model\ResourceModel\Property\Collection as PropertyCollection;
+use Shafeekb\PropertySystem\Model\ResourceModel\Property\Collection as PropertyCollection;
 use Psr\Log\LoggerInterface;
 
 /**
  * Class Collection
  *
- * @package My\PropertySystem\Model\ResourceModel\Property\Grid
+ * @package Shafeekb\PropertySystem\Model\ResourceModel\Property\Grid
  */
 class Collection extends PropertyCollection implements SearchResultInterface
 {

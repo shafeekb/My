@@ -94,7 +94,7 @@
             </settings>
         </column>
         <!-- Add Action with each row of grid and for this we will create a class Action -->
-        <actionsColumn name="actions" class="My\PropertySystem\Ui\Component\Listing\Grid\Column\Action">
+        <actionsColumn name="actions" class="Shafeekb\PropertySystem\Ui\Component\Listing\Grid\Column\Action">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="resizeEnabled" xsi:type="boolean">false</item>

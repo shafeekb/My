@@ -11,9 +11,9 @@
     <settings>
         <buttons>
             <button name="save_and_continue"
-                    class="My\PropertySystem\Block\Adminhtml\Property\Edit\SaveAndContinueButton"/>
-            <button name="save" class="My\PropertySystem\Block\Adminhtml\Property\Edit\SaveButton"/>
-            <button name="back" class="My\PropertySystem\Block\Adminhtml\Property\Edit\BackButton"/>
+                    class="Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit\SaveAndContinueButton"/>
+            <button name="save" class="Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit\SaveButton"/>
+            <button name="back" class="Shafeekb\PropertySystem\Block\Adminhtml\Property\Edit\BackButton"/>
         </buttons>
         <namespace>property_property_form</namespace>
         <dataScope>data</dataScope>
@@ -30,7 +30,7 @@
         <settings>
             <submitUrl path="property/property/save"/>
         </settings>
-        <dataProvider class="My\PropertySystem\Model\Property\DataProvider" name="property_property_form_data_source">
+        <dataProvider class="Shafeekb\PropertySystem\Model\Property\DataProvider" name="property_property_form_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
                 <primaryFieldName>entity_id</primaryFieldName>

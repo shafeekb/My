@@ -8,7 +8,7 @@
  * @category    exampleproject
  */
 
-namespace My\PropertySystem\Controller\Adminhtml\Property;
+namespace Shafeekb\PropertySystem\Controller\Adminhtml\Property;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -20,7 +20,7 @@ use Magento\Framework\View\Result\PageFactory;
 /**
  * Class Edit
  *
- * @package My\PropertySystem\Controller\Adminhtml\Property
+ * @package Shafeekb\PropertySystem\Controller\Adminhtml\Property
  */
 class Edit extends Action
 {
@@ -52,7 +52,7 @@ class Edit extends Action
     public function execute()
     {
         $resultPage = $this->pageFactory->create();
-        $resultPage->setActiveMenu('My_PropertySystem::property_system');
+        $resultPage->setActiveMenu('Shafeekb_PropertySystem::property_system');
         $resultPage->getConfig()->getTitle()->prepend(__('Property Edit Form'));
 
         return $resultPage;

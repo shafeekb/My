@@ -1,6 +1,6 @@
 <?php
 
-namespace My\PropertySystem\Helper;
+namespace Shafeekb\PropertySystem\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
@@ -11,7 +11,7 @@ use Magento\Store\Model\StoreManagerInterface;
 /**
  * Class Data
  *
- * @package My\PropertySystem\Helper
+ * @package Shafeekb\PropertySystem\Helper
  */
 class Data extends AbstractHelper
 {
