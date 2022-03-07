@@ -2,7 +2,8 @@
   "name": "shafeekb/module-property-system",
   "description": "A Magento 2 module which manages Property System.",
   "type": "magento2-module",
-  "version": "dev-main",
+  "version": "1.0.7",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Shafeek B",
