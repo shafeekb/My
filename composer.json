@@ -1,5 +1,5 @@
 {
-  "name": "my/module-property-system",
+  "name": "shafeekb/module-property-system",
   "description": "A Magento 2 module which manages Property System.",
   "type": "magento2-module",
   "version": "1.0.0",
