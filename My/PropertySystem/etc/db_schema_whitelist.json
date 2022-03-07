@@ -1,0 +1,24 @@
+{
+    "property_system": {
+        "column": {
+            "entity_id": true,
+            "county": true,
+            "country": true,
+            "town": true,
+            "descriptions": true,
+            "address": true,
+            "image_url": true,
+            "thumbnail_url": true,
+            "latitude": true,
+            "longitude": true,
+            "bedrooms": true,
+            "bathrooms": true,
+            "price": true,
+            "property_type": true,
+            "property_state": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

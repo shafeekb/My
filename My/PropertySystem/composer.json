@@ -1,0 +1,22 @@
+{
+  "name": "my/module-property-system",
+  "description": "A Magento 2 module which manages Property System.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Shafeek B",
+      "email": "shafeek_b@outlook.com",
+      "homepage": "https://www.test-url.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "My\\PropertySystem\\": ""
+    }
+  }
+}

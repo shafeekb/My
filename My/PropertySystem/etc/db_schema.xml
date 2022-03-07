@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <!--  Create property_system Table  -->
+    <table name="property_system" resource="default" engine="innodb" comment="Property System Table">
+        <column xsi:type="varchar" name="entity_id" nullable="false" comment="Entity Id"/>
+        <column xsi:type="varchar" name="county" nullable="true" length="255" comment="County Name"/>
+        <column xsi:type="varchar" name="country" nullable="true" length="255" comment="Country Name"/>
+        <column xsi:type="varchar" name="town" nullable="true" length="255" comment="Town"/>
+        <column xsi:type="text" name="descriptions" nullable="true" comment="Descriptions"/>
+        <column xsi:type="text" name="address" nullable="true" comment="Displayable Address"/>
+        <column xsi:type="varchar" name="image_url" nullable="true" comment="Image Url"/>
+        <column xsi:type="varchar" name="thumbnail_url" nullable="true" comment="Thumbnail Url"/>
+        <column xsi:type="double" name="latitude" nullable="true" comment="Latitude"/>
+        <column xsi:type="double" name="longitude" nullable="true" comment="Longitude"/>
+        <column xsi:type="int" name="bedrooms" nullable="true" comment="Number of Bedrooms"/>
+        <column xsi:type="int" name="bathrooms" nullable="true" comment="Number of Bathrooms"/>
+        <column xsi:type="float" name="price" nullable="true" comment="Price"/>
+        <column xsi:type="int" name="property_type" nullable="true" comment="Property Type"/>
+        <column xsi:type="varchar" name="property_state" nullable="true" comment="For Sale/Rent"/>
+
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="entity_id"/>
+        </constraint>
+    </table>
+</schema>
