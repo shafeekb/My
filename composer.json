@@ -26,7 +26,7 @@
       "url": "https://repo.magento.com/"
     }
   ],
-  "minimum-stability": "dev-main",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "autoload": {
     "files": [
