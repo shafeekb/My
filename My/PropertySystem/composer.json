@@ -11,6 +11,12 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/shafeekb/My"
+    }
+  ],
   "autoload": {
     "files": [
       "registration.php"
