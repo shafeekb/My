@@ -2,7 +2,7 @@
   "name": "shafeekb/module-property-system",
   "description": "A Magento 2 module which manages Property System.",
   "type": "magento2-module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "proprietary",
   "authors": [
     {
@@ -12,10 +12,18 @@
       "role": "Developer"
     }
   ],
+  "require": {
+    "php": "~7.1.0|~7.2.0|~7.3.0|~7.4.0",
+    "magento/module-catalog": "*"
+  },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/shafeekb/property-system"
+    },
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
     }
   ],
   "minimum-stability": "dev",
