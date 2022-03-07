@@ -17,6 +17,7 @@
       "url": "https://github.com/shafeekb/property-system"
     }
   ],
+  "minimum-stability": "dev",
   "autoload": {
     "files": [
       "registration.php"
