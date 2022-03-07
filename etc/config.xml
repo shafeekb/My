@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <property_system>
+            <setting>
+                <api_url>https://trial.craig.mtcserver15.com/</api_url>
+                <api_key>2S7rhsaq9X1cnfkMCPHX64YsWYyfe1he</api_key>
+            </setting>
+        </property_system>
+    </default>
+</config>
